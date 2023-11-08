@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
 
 export default function PDFDetail() {
   return (
-    <PDFViewer>
+    <PDFViewer className="w-full">
       <Quixote></Quixote>
     </PDFViewer>
   );
