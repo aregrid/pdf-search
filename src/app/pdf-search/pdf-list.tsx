@@ -20,6 +20,31 @@ export default function PDFList() {
       authorName: "Author Name 2",
       cover: "https://generated.vusercontent.net/placeholder.svg",
     },
+    {
+      title: "PDF Title 3",
+      authorName: "Author Name 3",
+      cover: "https://generated.vusercontent.net/placeholder.svg",
+    },
+    {
+      title: "PDF Title 4",
+      authorName: "Author Name 4",
+      cover: "https://generated.vusercontent.net/placeholder.svg",
+    },
+    {
+      title: "PDF Title 5",
+      authorName: "Author Name 5",
+      cover: "https://generated.vusercontent.net/placeholder.svg",
+    },
+    {
+      title: "PDF Title 6",
+      authorName: "Author Name 6",
+      cover: "https://generated.vusercontent.net/placeholder.svg",
+    },
+    {
+      title: "PDF Title 7",
+      authorName: "Author Name 7",
+      cover: "https://generated.vusercontent.net/placeholder.svg",
+    },
   ];
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4 md:p-6">
@@ -51,7 +76,6 @@ export default function PDFList() {
           </div>
         );
       })}
-      ;
     </section>
   );
 }
