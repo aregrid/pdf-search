@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   Page,
@@ -241,7 +242,7 @@ const styles = StyleSheet.create({
 
 export default function PDFDetail() {
   return (
-    <PDFViewer className="w-full">
+    <PDFViewer className="w-full h-screen">
       <Quixote></Quixote>
     </PDFViewer>
   );

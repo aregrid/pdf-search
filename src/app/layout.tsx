@@ -32,35 +32,17 @@ export default function RootLayout({
                   <div className="hidden md:block">
                     <div className="ml-10 flex items-baseline space-x-4">
                       <a
-                        href="#"
+                        href="/pdf-search"
                         className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
                         aria-current="page"
                       >
-                        Dashboard
+                        PDF Search
                       </a>
                       <a
-                        href="#"
+                        href="/pdf-detail"
                         className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                       >
-                        Team
-                      </a>
-                      <a
-                        href="#"
-                        className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                      >
-                        Projects
-                      </a>
-                      <a
-                        href="#"
-                        className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                      >
-                        Calendar
-                      </a>
-                      <a
-                        href="#"
-                        className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                      >
-                        Reports
+                        PDF Detail
                       </a>
                     </div>
                   </div>
